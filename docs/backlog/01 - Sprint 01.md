@@ -18,3 +18,31 @@ Na minha primeira concepção o ideal é que a ferramenta fizesse o seguinte com
 organizer init 
 ```
 
+O que é necessário criar no começo?
+
+A primeira coisa que será desenvolvida é a função init:
+
+```plantuml
+@startuml
+start
+:Pergunta os dados do projetos; 
+:Cria arquivo package.json do projeto(yarn init); 
+:instala e cria as configurações do husky;
+:instala e configura o commmitzen; 
+:instala e configura o standard version;
+stop
+@enduml
+```
+
+- **Dados do Projeto**
+  - Nome do Projeto (package.json)
+  - Versão
+  
+## Tasks
+
+| Numero | Descrição | Status |
+| :----: | :-------: | :----: |
+|   01   |           |        |
+
+
+

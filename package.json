@@ -1,7 +1,12 @@
 {
-    "name": "organizer",
+    "name": "organiz",
+    "description": "Repository Organization Package",
     "version": "1.0.0",
     "main": "index.js",
+    "readme": "README.md",
+    "keywords": [
+        "organizer"
+    ],
     "repository": "git@github.com:projetos-de-software/organizer.git",
     "license": "MIT",
     "devDependencies": {
@@ -10,9 +15,16 @@
         "commitizen": "^4.2.4",
         "cz-conventional-changelog": "3.3.0",
         "husky": "^8.0.1",
+        "jest": "^28.1.1",
         "standard-version": "^9.5.0"
     },
+    "author": {
+        "name": "Marcos de Lima Carlos",
+        "email": "mlimacarlos@gmail.com",
+        "homepage": "https://github.com/projetos-de-software/organizer"
+    },
     "scripts": {
+        "test" : "jest",
         "prepare": "husky install",
         "commit": "git-cz",
         "release": "standard-version"
@@ -21,5 +33,11 @@
         "commitizen": {
             "path": "./node_modules/cz-conventional-changelog"
         }
+    },
+    "bin": {
+        "execute": "index.js"
+    },
+    "dependencies": {
+        "commander": "^9.3.0"
     }
 }
