@@ -49,3 +49,9 @@
 ## Import functions from another file 
 
 [Modules e Imports](https://www.stanleyulili.com/node/node-modules-import-and-use-functions-from-another-file/)
+
+
+## Sample of cli app 
+
+
+[Todo Node Cli](https://medium.com/henriquekuwai/criando-sua-cli-com-node-js-d6dee7d03110)

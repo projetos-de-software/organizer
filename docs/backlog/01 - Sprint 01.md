@@ -27,25 +27,19 @@ A primeira coisa que será desenvolvida é a função init:
 start
 :checa a versão do nodejs;
 if (versão ok?) then (sim)
-  if (yarn?) then (sim)
-    :instala o yarn;
-  else (não)
-    :utiliza o npm; 
-  endif
-
   :Pergunta os dados do projetos; 
   :Cria arquivo package.json do projeto(yarn init); 
   :instala e cria as configurações do husky;
   :instala e configura o commmitzen; 
   :instala e configura o standard version;
-
 else (não)
 stop
 endif
-
-: oferece ao usuário opções;
-
-
+if (criar diretórios?) then (sim)
+  :cria os diretórios;
+else (não)
+stop
+endif
 stop
 @enduml
 ```
@@ -60,20 +54,31 @@ stop
       - backlog
       - archive
       - sprints
+      - publish
       - img
 
 ## Tasks
 
-| Numero |                 Descrição                  | Status |
-| :----: | :----------------------------------------: | :----: |
-|   01   |        Testar a Biblioteca Command         | aberto |
-|   02   |        Testar a Biblioteca Prompts         | aberto |
-|   03   | Escrever arquivos JSON a partir de objetos | aberto |
-|   04   |    entender sobre importação e módulos     | aberto |
+| Numero |                 Descrição                  | Status | Taiga |
+| :----: | :----------------------------------------: | :----: | :---: |
+|   01   |        Testar a Biblioteca Command         | aberto |       |
+|   02   |        Testar a Biblioteca Prompts         | aberto |       |
+|   03   | Escrever arquivos JSON a partir de objetos | aberto |       |
+|   04   |    Entender sobre importação e módulos     | aberto |       |
+
 
 ### Tasks parte II
 
-| Numero |                 Descrição                  | Status |
-| :----: | :----------------------------------------: | :----: |
-
+| Numero |                   Descrição                    | Status | Taiga |
+| :----: | :--------------------------------------------: | :----: | :---: |
+|   01   |   Criar Documento de Versionamento Semântico   | Aberto |       |
+|   02   |          Criar Documento de Changelog          | Aberto |       |
+|   03   |           Criar Documento de Commits           | Aberto |       |
+|   04   | Escrever documento em inglês para o array JSON | Aberto |       |
+|   05   |                Captura de dados                | Aberto |       |
+|   06   |  Implementar a instação de pacotes por script  | Aberto |       |
+|   07   |                Importar Idioma                 | Aberto |       |
+|   08   |             Implementar Diretórios             | Aberto |       |
+|   09   |          Escrever o Manual do Usuário          | Aberto |       |
+|   10   |       Função de valição da versão nodejs       | Aberto |       |
 

@@ -6,16 +6,28 @@
  */
 
  const { Command } = require('commander');
+ const acao  = require("./actions/init");
  const program = new Command();
+
+ /**
+ * Check nodejs version
+ */
+function checkVersion(){
+    // TODO: implementar o check da versão do NodeJS @critical
+}
+
+// importar JSON language
+
+/**
+*  Init call
+*/
+program
+    .command('init')
+    .description('Init repo')
+    .action(()=> {
+        acao.init();
+    });
  
- program
-    .option('-i, --init','init organizer report');
+program.parse(process.argv); 
  
- program.parse(process.argv);
- 
- const options = program.opts();
- 
- if(options.init){
-     console.log('teste');
- }
  
