@@ -25,11 +25,27 @@ A primeira coisa que será desenvolvida é a função init:
 ```plantuml
 @startuml
 start
-:Pergunta os dados do projetos; 
-:Cria arquivo package.json do projeto(yarn init); 
-:instala e cria as configurações do husky;
-:instala e configura o commmitzen; 
-:instala e configura o standard version;
+:checa a versão do nodejs;
+if (versão ok?) then (sim)
+  if (yarn?) then (sim)
+    :instala o yarn;
+  else (não)
+    :utiliza o npm; 
+  endif
+
+  :Pergunta os dados do projetos; 
+  :Cria arquivo package.json do projeto(yarn init); 
+  :instala e cria as configurações do husky;
+  :instala e configura o commmitzen; 
+  :instala e configura o standard version;
+
+else (não)
+stop
+endif
+
+: oferece ao usuário opções;
+
+
 stop
 @enduml
 ```
@@ -37,12 +53,27 @@ stop
 - **Dados do Projeto**
   - Nome do Projeto (package.json)
   - Versão
-  
+
+- **Opções**
+  - Pasta de Documentos para Sprint
+    - docs
+      - backlog
+      - archive
+      - sprints
+      - img
+
 ## Tasks
 
-| Numero | Descrição | Status |
-| :----: | :-------: | :----: |
-|   01   |           |        |
+| Numero |                 Descrição                  | Status |
+| :----: | :----------------------------------------: | :----: |
+|   01   |        Testar a Biblioteca Command         | aberto |
+|   02   |        Testar a Biblioteca Prompts         | aberto |
+|   03   | Escrever arquivos JSON a partir de objetos | aberto |
+|   04   |    entender sobre importação e módulos     | aberto |
 
+### Tasks parte II
+
+| Numero |                 Descrição                  | Status |
+| :----: | :----------------------------------------: | :----: |
 
 
