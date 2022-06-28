@@ -18,12 +18,20 @@ function checkVersion(){
 
 // importar JSON language
 
+var language = require('./lang/en.json');
+var package = require('../package.json');
+
+program
+    .name("organiz")
+    .description(language.description)
+    .version(package.version);
+
 /**
 *  Init call
 */
 program
     .command('init')
-    .description('Init repo')
+    .description(language.command[0].description)
     .action(()=> {
         acao.init();
     });

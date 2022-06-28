@@ -1,1 +1,10 @@
-// TODO: escrever o array JSON para inglês @critical
+{
+    "language" : "en",
+    "command" : [
+        {
+            "name" : "init",
+            "description" : "init repo"
+        }
+    ],
+    "description" : "Organizer is a cli program to manage repo templates"
+}
