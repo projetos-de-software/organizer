@@ -61,24 +61,23 @@ stop
 
 | Numero |                 Descrição                  | Status | Taiga |
 | :----: | :----------------------------------------: | :----: | :---: |
-|   01   |        Testar a Biblioteca Command         | aberto |       |
-|   02   |        Testar a Biblioteca Prompts         | aberto |       |
-|   03   | Escrever arquivos JSON a partir de objetos | aberto |       |
-|   04   |    Entender sobre importação e módulos     | aberto |       |
+|   01   |        Testar a Biblioteca Command         | criado |  #3   |
+|   02   |        Testar a Biblioteca Prompts         | criado |  #4   |
+|   03   | Escrever arquivos JSON a partir de objetos | criado |  #5   |
+|   04   |    Entender sobre importação e módulos     | criado |  #6   |
 
 
 ### Tasks parte II
 
 | Numero |                   Descrição                    | Status | Taiga |
 | :----: | :--------------------------------------------: | :----: | :---: |
-|   01   |   Criar Documento de Versionamento Semântico   | Aberto |       |
-|   02   |          Criar Documento de Changelog          | Aberto |       |
-|   03   |           Criar Documento de Commits           | Aberto |       |
-|   04   | Escrever documento em inglês para o array JSON | Aberto |       |
-|   05   |                Captura de dados                | Aberto |       |
-|   06   |  Implementar a instação de pacotes por script  | Aberto |       |
-|   07   |                Importar Idioma                 | Aberto |       |
-|   08   |             Implementar Diretórios             | Aberto |       |
-|   09   |          Escrever o Manual do Usuário          | Aberto |       |
-|   10   |       Função de valição da versão nodejs       | Aberto |       |
-
+|   01   |   Criar Documento de Versionamento Semântico   | criado |  #7   |
+|   02   |          Criar Documento de Changelog          | criado |  #8   |
+|   03   |           Criar Documento de Commits           | criado |  #16  |
+|   04   | Escrever documento em inglês para o array JSON | criado |  #9   |
+|   05   |                Captura de dados                | criado |  #10  |
+|   06   |  Implementar a instação de pacotes por script  | criado |  #11  |
+|   07   |                Importar Idioma                 | criado |  #12  |
+|   08   |             Implementar Diretórios             | criado |  #13  |
+|   09   |          Escrever o Manual do Usuário          | criado |  #14  |
+|   10   |       Função de valição da versão nodejs       | criado |  #15  |
