@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/projetos-de-software/organizer/compare/v1.1.2...v1.1.3) (2022-07-05)
+
+
+### Correções
+
+* npx escape caractere ([f6fa257](https://github.com/projetos-de-software/organizer/commit/f6fa257ac1e69de8ff4704381d38c4ef269b8c2c))
+
 ### [1.1.2](https://github.com/projetos-de-software/organizer/compare/v1.1.1...v1.1.2) (2022-07-05)
 
 
