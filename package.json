@@ -35,7 +35,7 @@
         }
     },
     "bin": {
-        "execute": "bin/run.js"
+        "organiz": "bin/run.js"
     },
     "dependencies": {
         "child_process": "^1.0.2",
