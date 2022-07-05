@@ -158,15 +158,7 @@ function executaComando(quest){
         }
     });
 
-    // Dispara o cz caso o usuário tente utilizar somente o commit (NPX)
-    let huskyPreCommit = "npx husky add .husky/prepare-commit-msg 'exec < /dev/tty && npx cz --hook || true'";
-    execSync(huskyPreCommit, (err, stdout, stderr) =>{
-        if(err){
-            console.log(language.init.ErrorNpmInit);
-            process.exit(1);
-        }
-    });
-
+    
     // instala o standard version e o commitizen
     let commitizen = 'npm install commitizen standard-version --save-dev';
     // executa o comando acima
