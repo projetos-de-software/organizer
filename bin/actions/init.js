@@ -150,7 +150,7 @@ function executaComando(quest){
 
     
     // adiciona o trigger de commit (NPX)
-    let huskyAdd = "npx husky add .husky/commit-msg \'npx commitlint --edit $1\'";
+    let huskyAdd = "npx husky add .husky/commit-msg \"npx commitlint --edit $1\"";
     execSync(huskyAdd, (err, stdout, stderr) =>{
         if(err){
             console.log(language.init.ErrorNpmInit);
