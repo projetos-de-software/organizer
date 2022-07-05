@@ -1,31 +1,31 @@
 TODO:
   @file:///home/marcos/github/projetos/organizer/bin/actions/init.js
-    ☐ // TODO: implementar função init @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#12
-    ☐ // TODO: função de captura de dados @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#19
-    ☐ // TODO: implementar função que executa um comando @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#27
+    ✔ // TODO: implementar função init @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#12 @done(22-07-02 10:57)
+    ✔ // TODO: função de captura de dados @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#19 @done(22-07-03 10:11)
+    ✔ // TODO: implementar função que executa um comando @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#27 @done(22-07-03 10:11)
     ☐ // TODO: implementar função @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#34
-    ☐ // TODO: Implementar a função de criarDiretórios @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#41
+    ✔ // TODO: Implementar a função de criarDiretórios @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#41 @done(22-07-04 22:06)
 
   @file:///home/marcos/github/projetos/organizer/bin/lang/en.json
-    ☐ // TODO: escrever o array JSON para inglês @critical @file:///home/marcos/github/projetos/organizer/bin/lang/en.json#1
+    ✔ // TODO: escrever o array JSON para inglês @critical @file:///home/marcos/github/projetos/organizer/bin/lang/en.json#1 @done(22-07-02 10:57)
   
   @file:///home/marcos/github/projetos/organizer/bin/run.js
-    ☐ // TODO: implementar o check da versão do NodeJS @critical @file:///home/marcos/github/projetos/organizer/bin/run.js#16
+    ✔ // TODO: implementar o check da versão do NodeJS @critical @file:///home/marcos/github/projetos/organizer/bin/run.js#16 @done(22-07-03 10:11)
   
   @file:///home/marcos/github/projetos/organizer/docs/publish/01%20-%20Versionamento%20Sem%C3%A2ntico.md
-    ☐ // TODO: escrever documento de Versionamento Semântico @high @file:///home/marcos/github/projetos/organizer/docs/publish/01%20-%20Versionamento%20Sem%C3%A2ntico.md#3
+    ✔ // TODO: escrever documento de Versionamento Semântico @high @file:///home/marcos/github/projetos/organizer/docs/publish/01%20-%20Versionamento%20Sem%C3%A2ntico.md#3 @done(22-07-02 10:57)
   
   @file:///home/marcos/github/projetos/organizer/docs/publish/02%20-%20Commit%20Sem%C3%A2ntico.md
-    ☐ // TODO: criar documento de commit semântico @high @file:///home/marcos/github/projetos/organizer/docs/publish/02%20-%20Commit%20Sem%C3%A2ntico.md#3
+    ✔ // TODO: criar documento de commit semântico @high @file:///home/marcos/github/projetos/organizer/docs/publish/02%20-%20Commit%20Sem%C3%A2ntico.md#3 @done(22-07-02 11:42)
   
   @file:///home/marcos/github/projetos/organizer/docs/publish/03%20-%20Changelog.md
-    ☐ // TODO: criar documento de changelog @high  @file:///home/marcos/github/projetos/organizer/docs/publish/03%20-%20Changelog.md#3
+    ✔ // TODO: criar documento de changelog @high  @file:///home/marcos/github/projetos/organizer/docs/publish/03%20-%20Changelog.md#3 @done(22-07-02 11:18)
   
   @file:///home/marcos/github/projetos/organizer/docs/publish/Utiliza%C3%A7%C3%A3o.md
     ☐ // TODO: escrever o manual de usuário @high @file:///home/marcos/github/projetos/organizer/docs/publish/Utiliza%C3%A7%C3%A3o.md#3
 
 Concepts:
-    ☐ TODO: Testar a Biblioteca Command @critical
-    ☐ TODO: Testar a Biblioteca Prompts @critical
+    ✔ TODO: Testar a Biblioteca Command @critical @done(22-07-02 10:57)
+    ✔ TODO: Testar a Biblioteca Prompts @critical @done(22-07-02 20:05)
     ☐ TODO: Escrever JSON a partir de objetos @critical
-    ☐ TODO: Entender sobre a importação de módulos @high
+    ✔ TODO: Entender sobre a importação de módulos @high @done(22-07-02 20:05)
