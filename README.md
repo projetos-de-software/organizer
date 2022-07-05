@@ -24,6 +24,12 @@ Há alguns pré-requisitos do software:
 
 Você pode ou não utilizar o [Yarn](https://yarnpkg.com/). Caso o software não detecte o yarn instalado ele utilizará o NPM como gerenciador de pacotes.
 
+No windows o NPX não vem instalado por padrão. É necessário que você o instale através do comando:
+
+```bash
+npm i -g npx
+```
+
 Para instalar digite o comando abaixo: 
 
 ```bash
