@@ -3,7 +3,7 @@ TODO:
     ✔ // TODO: implementar função init @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#12 @done(22-07-02 10:57)
     ✔ // TODO: função de captura de dados @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#19 @done(22-07-03 10:11)
     ✔ // TODO: implementar função que executa um comando @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#27 @done(22-07-03 10:11)
-    ☐ // TODO: implementar função @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#34
+    ✔ // TODO: implementar função @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#34 @done(22-07-05 12:56)
     ✔ // TODO: Implementar a função de criarDiretórios @high @file:///home/marcos/github/projetos/organizer/bin/actions/init.js#41 @done(22-07-04 22:06)
 
   @file:///home/marcos/github/projetos/organizer/bin/lang/en.json
@@ -22,10 +22,10 @@ TODO:
     ✔ // TODO: criar documento de changelog @high  @file:///home/marcos/github/projetos/organizer/docs/publish/03%20-%20Changelog.md#3 @done(22-07-02 11:18)
   
   @file:///home/marcos/github/projetos/organizer/docs/publish/Utiliza%C3%A7%C3%A3o.md
-    ☐ // TODO: escrever o manual de usuário @high @file:///home/marcos/github/projetos/organizer/docs/publish/Utiliza%C3%A7%C3%A3o.md#3
+    ✔ // TODO: escrever o manual de usuário @high @file:///home/marcos/github/projetos/organizer/docs/publish/Utiliza%C3%A7%C3%A3o.md#3 @done(22-07-05 13:03)
 
 Concepts:
     ✔ TODO: Testar a Biblioteca Command @critical @done(22-07-02 10:57)
     ✔ TODO: Testar a Biblioteca Prompts @critical @done(22-07-02 20:05)
-    ☐ TODO: Escrever JSON a partir de objetos @critical
+    ✔ TODO: Escrever JSON a partir de objetos @critical @done(22-07-05 12:56)
     ✔ TODO: Entender sobre a importação de módulos @high @done(22-07-02 20:05)
