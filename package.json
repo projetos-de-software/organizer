@@ -10,8 +10,8 @@
     "repository": "git@github.com:projetos-de-software/organizer.git",
     "license": "MIT",
     "devDependencies": {
-        "@commitlint/cli": "^17.0.2",
-        "@commitlint/config-conventional": "^17.0.2",
+        "@commitlint/cli": "^17.0.3",
+        "@commitlint/config-conventional": "^17.0.3",
         "commitizen": "^4.2.4",
         "cz-conventional-changelog": "3.3.0",
         "husky": "^8.0.1",
@@ -24,8 +24,7 @@
         "homepage": "https://github.com/projetos-de-software/organizer"
     },
     "scripts": {
-        
-        "test" : "jest",
+        "test": "jest",
         "prepare": "husky install",
         "commit": "git-cz",
         "release": "standard-version"
@@ -39,6 +38,10 @@
         "execute": "bin/run.js"
     },
     "dependencies": {
-        "commander": "^9.3.0"
+        "child_process": "^1.0.2",
+        "commander": "^9.3.0",
+        "fs": "^0.0.1-security",
+        "prompts": "^2.4.2",
+        "semver": "^7.3.7"
     }
 }

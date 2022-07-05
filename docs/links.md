@@ -55,3 +55,8 @@
 
 
 [Todo Node Cli](https://medium.com/henriquekuwai/criando-sua-cli-com-node-js-d6dee7d03110)
+
+## Get Environment in NodeJS
+
+[StackOverflow](https://stackoverflow.com/questions/4870328/read-environment-variables-in-node-js)
+

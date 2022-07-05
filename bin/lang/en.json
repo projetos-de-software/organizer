@@ -1,1 +1,25 @@
-// TODO: escrever o array JSON para inglês @critical
+{
+    "language" : "en",
+    "command" : [
+        {
+            "name" : "init",
+            "description" : "init repo"
+        }
+    ],
+    "description" : "Organizer is a cli program to manage repo templates",
+    "nodeVersion" : "Organizer requires node version greater then 14!",
+    "init" : 
+        {
+            "gitRepo" : "Git repository does not exist. Do you want to create it?",
+            "gitExitMessage" : "The git repository is needed to install the other dependencies. Init repo before run organiz init again.",
+            "gitInitErrorMessage" : "Git command could not be executed!",
+            "questionName" : "What is the name of project?",
+            "questionVersion" : "What is the verion of project? (default 0.1.0)",
+            "questionDirs" : "Are you want to create documents folder structure?",
+            "ErrorNpmInit" : "There is something wrong with the npm command...",
+            "ErrorFolders" : "Please, check folders permission. Folders not created.",
+            "FinishInitProcess" : "Process finished! Check our site: https://github.com/projetos-de-software/organizer for more details."
+        }
+    
+    
+}

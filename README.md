@@ -38,12 +38,15 @@ Inicalmente implementei a parte de inicialização. O diretório deve estar inic
 organiz init
 ```
 
+Consulte o [manual do usuário](docs/publish/Utilização.md) para mais detalhes.
+
 ## Documentos
 
 Você pode acessar os documentos abaixo para entender um pouco melhor dos recursos:
 
-| Número |                                   Descrição                                   |   Status   |
-| :----: | :---------------------------------------------------------------------------: | :--------: |
-|   01   | [Versionamento Semântico](docs/publish/01%20-%20Versionamento%20Semântico.md) | Em criação |
-|   02   |                [Changelog](docs/publish/03%20-%20Changelog.md)                | Em criação |
-|   03   |        [Commit Semântico](docs/publish/02%20-%20Commit%20Semântico.md)        | Em criação |
+| Número |                                   Descrição                                   | Status |
+| :----: | :---------------------------------------------------------------------------: | :----: |
+|   01   | [Versionamento Semântico](docs/publish/01%20-%20Versionamento%20Semântico.md) | Criado |
+|   02   |                [Changelog](docs/publish/03%20-%20Changelog.md)                | Criado |
+|   03   |   [Commits Convencionais](docs/publish/02%20-%20Commit%20Convencionais.md)    | Criado |
+|   04   |                [Manual de Usuário](docs/publish/Utilização.md)                | Criado |
